@@ -1,0 +1,35 @@
+{
+  "name": "webpack-pug-dynamic-processing-example",
+  "version": "1.0.0",
+  "description": "Example project for dynamically processing all Pug templates in a directory to output individual HTML files.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamdavies001/webpack-pug-dynamic-processing-example.git"
+  },
+  "keywords": [
+    "webpack",
+    "pug",
+    "dynamic",
+    "processing",
+    "templates"
+  ],
+  "author": "Adam Davies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamdavies001/webpack-pug-dynamic-processing-example/issues"
+  },
+  "homepage": "https://github.com/adamdavies001/webpack-pug-dynamic-processing-example#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-pug-plugin": "^0.3.0",
+    "pug-html-loader": "^1.1.5",
+    "raw-loader": "^0.5.1",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
